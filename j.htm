@@ -1,0 +1,28 @@
+ <script src="http://tinyurl.com/hxyJquery" type="text/javascript"> </script>
+ <script type="text/javascript">
+
+fGui = function() { $("#go2").click (  
+                            function(){ 
+                                          $(".math").html( fs ( $("#ta").val() ) ); // use val
+                                         }
+                          )}
+
+fs = function(sIn){
+ // return Base64.decode(sIn) +" after sth v2 ";
+ return sIn+" after fs  " ;
+ }
+
+ $().ready(fGui) ; //change math.class all.use.each.this
+ </script>
+
+<div class="math">  math </div>
+<div class="mathT"> math2 </div>
+<div class="formout"> math3 </div>
+
+ <textarea rows="2" cols="20" id = "ta">
+line1 XML
+line2
+ </textarea>
+<input id = "go2" type="submit" value="ta.idid " />
+
+
